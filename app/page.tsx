@@ -18,14 +18,36 @@ export default function Home() {
           </nav>
         </div>
       </header>
-
+      <nav>
+        hola
+      </nav>
       <nav id="dashboard" className="grid grid-cols-1 bg-slate-100 h-full w-full divide-x md:grid-cols-4">
-        <menu className="grid grid-cols-4 col-span-3 h-full w-full order-2">
-
-        <div className="border-2 h-20 col-span-4 border-slate-500 ">
+        <menu className="font-light grid grid-cols-7 col-span-3 h-full w-full order-2 border-2 border-slate-500 ">
+          <div className="border-2 h-20 col-span-7 border-slate-500 ">
             <h1 className="text-7xl font-semibold ">Octubre</h1>
           </div>
           <div className="border-2 h-20 border-slate-500 ">
+            Domingo
+          </div>
+          <div className="border-2 h-20 border-slate-500 ">
+            Lunes
+          </div>
+          <div className="border-2 h-20 border-slate-500 ">
+            Martes
+          </div>
+          <div className="border-2 h-20 border-slate-500 ">
+            Miercoles
+          </div>
+          <div className="border-2 h-20 border-slate-500 ">
+            Jueves
+          </div>
+          <div className="border-2 h-20 border-slate-500 ">
+            Viernes
+          </div>
+          <div className=" border-2 h-20 border-slate-500 ">
+            Sabado
+          </div>
+          <div className="border-2 col-start-3 h-20 border-slate-500 ">
             1
           </div>
           <div className="border-2 h-20 border-slate-500 ">
@@ -83,7 +105,7 @@ export default function Home() {
             19
           </div>
           <div className="border-2 h-20 border-slate-500">
-            10
+            20
           </div>
           <div className="border-2 h-20 border-slate-500 ">
             21
