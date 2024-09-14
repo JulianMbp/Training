@@ -26,25 +26,25 @@ export default function Home() {
           <div className="border-2 h-20 col-span-7 border-slate-500 ">
             <h1 className="text-7xl font-semibold ">Octubre</h1>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Domingo
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Lunes
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Martes
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Miercoles
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Jueves
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Viernes
           </div>
-          <div className=" border-2 h-20 border-slate-500 ">
+          <div className="font-bold border-2 h-20 border-slate-500 ">
             Sabado
           </div>
           <div className="border-2 col-start-3 h-20 border-slate-500 ">
