@@ -3,24 +3,51 @@ export default function Home() {
     <main>
       <header className=" w-screen h-20 bg-[#27303F]">
         <div className="grid grid-cols-8 ">
-          <h1 className=" order-1 text-2xl font-bold text-white text-center col-span-2 pt-3">
-            Training
+          <h1 className=" order-1 text-4xl font-bold text-white text-center col-span-2 pt-3">
+            TrainingUp
           </h1>
-          <a href="#home" className="order-2 col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
+          <a href="#home" className="order-2 text-4xl font-semibold col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
             Home
           </a>
-          <a href="#dashboard" className="order-3 col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
+          <a href="#dashboard" className="order-3 text-4xl font-semibold  col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
             Dashboard
           </a>
-          <nav className="order-4 col-span-2 h-10 items-center pl-10 pt-2 text-white">
-            <svg className="h-8 w-8 text-zinc-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="17" cy="6" r="2" />  <path d="M9 11a4.97 4.97 0 1 0 3.95 7.95" />  <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" /></svg>
+          <nav className="order-4 text-2xl font-semibold  col-span-2 h-10 items-center pl-20 pt-2 text-white">
+            <svg className=" h-8 w-8 text-zinc-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="17" cy="6" r="2" />  <path d="M9 11a4.97 4.97 0 1 0 3.95 7.95" />  <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" /></svg>
             Training
           </nav>
         </div>
       </header>
-      <nav>
-        hola
+
+      <nav id="#home" className="bg-slate-100 h-full w-full text-7xl border-2 border-blue-900 ">
+        <menu className="grid grid-cols-1 md:grid-cols-4">
+          <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 border border-blue-900">
+            <img className="rounded-full h-20 w-20 border border-gray-100 shadow-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOcxIbxfuAZxJPi6LzSVTM4RGlqQ_U2U_rQ&s" />
+            <div className="text-3xl pt-4">Chris Froome</div>
+          </div>
+          <div>
+            
+          </div>
+          <div className="text-center col-span-4 font-extrabold border-2 border-blue-900">
+            Bienvenido a tu entrenamiento Chris
+          </div>
+          <div>
+
+          </div>
+        </menu>
+        <menu className="grid grid-cols-3 divide-x ">
+          <div>
+            hola
+          </div>
+          <div>
+            hola
+          </div>
+          <div>
+            hola
+          </div>
+        </menu>
       </nav>
+
       <nav id="dashboard" className="grid grid-cols-1 bg-slate-100 h-full w-full divide-x md:grid-cols-4">
         <menu className="font-light grid grid-cols-7 col-span-3 h-full w-full order-2 border-2 border-slate-500 ">
           <div className="border-2 h-20 col-span-7 border-slate-500 ">
@@ -143,19 +170,19 @@ export default function Home() {
         </menu>
 
         <div className="order-1 flex flex-col gap-1">
-          <div>
+          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#entrenamiento" className="flex">
               <svg  className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
               <h3 className="font-thin">Agregar entrenamiento</h3>
             </a>
           </div>
-          <div>
+          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#evento" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
           </div>
-          <div>
+          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#recordar" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="9 11 12 14 20 6" />  <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
               <h3 className="font-thin">Agregar Recordatorio</h3>
