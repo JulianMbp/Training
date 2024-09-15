@@ -3,19 +3,19 @@ export default function Home() {
     <main>
       <header className=" w-screen h-20 bg-[#27303F]">
         <div className="grid grid-cols-8 ">
-          <h1 className=" order-1 text-4xl font-bold text-white text-center col-span-2 pt-3">
+          <h1 className=" order-1 text-3xl font-bold text-white text-center mt-2 col-span-2 pt-3">
             TrainingUp
           </h1>
-          <a href="#home" className="order-2 text-4xl font-semibold col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
+          <a href="#home" className="order-2 text-3xl font-semibold col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
             Home
           </a>
-          <a href="#dashboard" className="order-3 text-4xl font-semibold  col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
+          <a href="#dashboard" className="order-3 text-3xl font-semibold  col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
             Dashboard
           </a>
-          <nav className="order-4 text-2xl font-semibold  col-span-2 h-10 items-center pl-20 pt-2 text-white">
-            <svg className=" h-8 w-8 text-zinc-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="17" cy="6" r="2" />  <path d="M9 11a4.97 4.97 0 1 0 3.95 7.95" />  <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" /></svg>
-            Training
-          </nav>
+          <nav className="order-4 text-2xl font-semibold  col-span-2 h-10 items-center pl-20 text-white">
+            <svg className="h-12 w-12 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              Training
+            </nav>
         </div>
       </header>
 
@@ -28,22 +28,44 @@ export default function Home() {
           <div>
             
           </div>
-          <div className="text-center col-span-4 font-extrabold border-2 border-blue-900">
+          <div className="text-center text-4xl col-span-4 font-extrabold border mx-2 border-blue-800">
             Bienvenido a tu entrenamiento Chris
-          </div>
-          <div>
-
+            <p className="text-justify text-2xl font-medium">
+              
+            </p>
           </div>
         </menu>
-        <menu className="grid grid-cols-3 divide-x ">
-          <div>
-            hola
+        <menu className="grid grid-cols-3 ">
+          <div className="ml-1 border-x-4 grid grid-cols-1 text-3xl h-auto w-full">
+            Training Plans
+            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Entreno sprints
+              <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
+            </a>
+            <a href="" className=" flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Entreno de una semana
+              <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
+            </a>
+            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Entreno por intervalos
+              <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
+            </a>
+            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Entreno de fuerza
+              <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
+            </a>
           </div>
-          <div>
-            hola
+
+          <div className="grid grid-cols-2 border-x-4 text-2xl w-full">
+            <p className="col-span-2">Entreno de hoy</p>
+            <div className="bg-slate-400 grid grid-cols-3 col-span-2 h-20 w-full">
+            <p className="col-span-3">Road Cycling</p>
+            <svg class="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>            <p className="">2:00:00</p>
+            <p className="">56 km</p>
+            </div>
           </div>
-          <div>
-            hola
+          <div className="pl-3 text-2xl">
+            Eventos
           </div>
         </menu>
       </nav>
