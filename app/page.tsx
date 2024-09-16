@@ -85,7 +85,6 @@ export default function Home() {
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
             
-
           </div>
         </menu>
       </nav>
@@ -116,97 +115,137 @@ export default function Home() {
           <div className="font-bold border-2 h-20 border-slate-500 ">
             Sabado
           </div>
-          <div className="border-2 col-start-3 h-20 border-slate-500 ">
+          <div className="border-2 col-start-3 border-slate-500 ">
             1
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">2:00:00</p>
+              <p className="col-span-3">56 km</p>
+            </div>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2  border-slate-500 ">
             2
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">5:00:00</p>
+              <p className="col-span-3">160 km</p>
+            </div>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2  border-slate-500 ">
             3
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">100 km</p>
+            </div>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2  border-slate-500 ">
             4
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">2:00:00</p>
+              <p className="col-span-3">56 km</p>
+            </div>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             5
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">90 km</p>
+            </div>
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             6
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             7
           </div>
-          <div className="border-2 h-20 border-slate-500">
+          <div className="border-2 border-slate-500">
             8
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             9
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             10
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             11
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             12
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             13
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             14
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             15
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             16
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             17
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             18
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             19
           </div>
-          <div className="border-2 h-20 border-slate-500">
+          <div className="border-2 border-slate-500">
             20
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             21
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             22
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             23
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             24
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             25
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             26
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             27
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             28
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             29
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             30
           </div>
-          <div className="border-2 h-20 border-slate-500 ">
+          <div className="border-2 border-slate-500 ">
             31
           </div>
         </menu>
