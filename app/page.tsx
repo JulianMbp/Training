@@ -3,60 +3,63 @@ export default function Home() {
     <main>
       <header className=" w-screen h-20 bg-[#27303F]">
         <div className="grid grid-cols-8 ">
-          <h1 className=" order-1 text-3xl font-bold text-white text-center mt-2 col-span-2 pt-3">
+          <h1 className=" order-1 text-2xl font-bold text-white text-center mt-2 col-span-2 pt-3">
             TrainingUp
           </h1>
-          <a href="#home" className="order-2 text-3xl font-semibold col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
-            Home
+          <a href="#home" className="order-2 text-2xl font-light col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
+            Inicio
           </a>
-          <a href="#dashboard" className="order-3 text-3xl font-semibold  col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
-            Calendar
+          <a href="#dashboard" className="order-3 text-2xl font-light  col-span-2 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 ">
+            Calendario
           </a>
-          <nav className="order-4 text-2xl font-semibold  col-span-2 h-10 items-center pl-20 text-white">
-            <svg className="h-12 w-12 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+          <nav className="order-4 text-xl font-semibold  col-span-2 h-10 items-center pl-20 text-white">
+            <svg className="h-10 w-10 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
               Training
             </nav>
         </div>
       </header>
 
-      <nav id="#home" className="bg-slate-100 h-full w-full text-7xl border-2 border-blue-900 ">
+      <nav id="#home" className="bg-slate-100  h-full w-full text-7xl border-2 border-blue-900 ">
         <menu className="grid grid-cols-1 md:grid-cols-4">
-          <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 border border-blue-900">
+          <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 shadow-lg  border border-blue-900">
             <img className="rounded-full h-20 w-20 border border-gray-100 shadow-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOcxIbxfuAZxJPi6LzSVTM4RGlqQ_U2U_rQ&s" />
             <div className="text-3xl pt-4">Chris Froome</div>
           </div>
           <div>
             
           </div>
-          <div className="text-center text-4xl col-span-4 font-extrabold border mx-2 mt-10 border-blue-800">
+          <div className="text-center text-4xl shadow-xl col-span-4 font-extrabold border mx-2 mt-10 border-blue-800">
             Bienvenido a tu entrenamiento Chris
           </div>
         </menu>
         <menu className="grid grid-cols-2 md:grid-cols-3 mt-20">
           <div className="ml-1 border-x-4 grid grid-cols-1 text-3xl h-auto w-full">
             <p className="text-3xl font-semibold text-blue-700 ">Planes de Entrenamiento</p>
-            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Entreno sprints
               <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
             </a>
-            <a href="" className=" flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className=" flex gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Entreno de una semana
               <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
             </a>
-            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Entreno por intervalos
               <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
             </a>
-            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Entreno de fuerza
               <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
             </a>
           </div>
 
-          <div className="grid grid-cols-2 border-x-4 text-2xl w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 border-x-4 text-2xl w-full ">
             <p className="col-span-2 text-3xl font-semibold text-blue-700">Entreno de hoy</p>
-            <div className="bg-slate-400 border-2 border-blue-950 grid grid-cols-3 col-span-2 h-20 w-full">
-            <p className="col-span-3">Road Cycling</p>
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-3 col-span-2 h-20 w-full">
+            <p className="col-span-3 flex gap-20">
+              Road Cycling
+              <svg className="h-10 w-10 text-lime-600"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="20 6 9 17 4 12" /></svg>
+            </p>
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>            <p className="">2:00:00</p>
             <p className="">56 km</p>
             </div>
@@ -64,26 +67,30 @@ export default function Home() {
 
           <div className="pl-1 text-2xl grid grid-cols-1">
             <p className="text-3xl font-semibold text-blue-700">Eventos</p>
-            <p className="flex gap-2">
+
+            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Vuelta a España
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
-            </p>
-            <p className="flex gap-2">
-              Vuelta a Catalunya
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
-            </p>
-            <a href="" className="flex gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
-            Tour de France
-            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            </a>
-            <p className="flex gap-2">
+            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
+            </a>
+            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Tour de France
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
-            </p>
+            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
+            </a>
+            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Vuelta a Cantalunya
+            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
+            </a>
+            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+              Giro De Itailia
+            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
+            </a>
+            
+
           </div>
         </menu>
       </nav>
 
-      <nav id="dashboard" className="grid grid-cols-1 bg-slate-100 h-full w-full divide-x md:grid-cols-4">
+      <nav id="dashboard" className="grid grid-cols-1 bg-slate-100 h-full w-full divide-x md:grid-cols-4 mt-20">
         <menu className="font-light grid grid-cols-7 col-span-3 h-full w-full order-2 border-2 border-slate-500 ">
           <div className="border-2 h-20 col-span-7 border-slate-500 ">
             <h1 className="text-7xl font-semibold ">Octubre</h1>
