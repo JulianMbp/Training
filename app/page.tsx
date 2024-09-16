@@ -126,7 +126,7 @@ export default function Home() {
               <p className="col-span-3">56 km</p>
             </div>
           </div>
-          <div className="border-2  border-slate-500 ">
+          <div className="border-2 h-auto border-slate-500 ">
             2
             <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
               <p className="col-span-3 flex">
@@ -252,7 +252,7 @@ export default function Home() {
 
         <div className="order-1 flex flex-col gap-1">
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#entrenamiento" className="flex">
+            <a href="#training" className="flex">
               <svg  className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
               <h3 className="font-thin">Agregar entrenamiento</h3>
             </a>
@@ -269,6 +269,37 @@ export default function Home() {
               <h3 className="font-thin">Agregar Recordatorio</h3>
             </a>
           </div>
+        </div>
+      </nav>
+
+      <nav id="#training" className=" shadow-2xl border-2 border-black p-3 m-10 h-96 w-full">
+        
+          <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
+            <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-5">
+                <div className="col-span-3 ">
+                  
+                  <label htmlFor="Name" className=""></label>
+                  <input type="text" id="Name" name="Name" className="border-2 border-black w-[80%] h-full" />
+                  
+                </div>
+                <div className="col-span-4 row-span-2 col-start-1 row-start-2">
+                  <textarea name="textarea" id="text_training" className="h-full w-full border-2 border-black"> escribe lo que sea</textarea>
+                </div>
+                <div className="col-start-1 row-start-4 border-2 border-black">
+                  <button className=" text-black hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 ">Subir</button>
+                </div>
+                <div className="col-start-4 row-start-4 border-2 border-black">
+                  4
+                </div>
+                <div className="col-start-4 row-start-1 w-10 ml-40">
+                  <a href="#home" className="">
+                    <svg className="h-8 w-8 text-slate-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                  </a>
+                </div>
+            </div>
+    
         </div>
       </nav>
     </main>
