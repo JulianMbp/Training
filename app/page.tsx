@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </header>
 
-      <nav id="#home" className="bg-slate-100  h-full w-full text-7xl border-2 border-blue-900 ">
+      <nav id="home" className="bg-slate-100  h-full w-full text-7xl border-2 border-blue-900 ">
         <menu className="grid grid-cols-1 md:grid-cols-4">
           <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 shadow-lg  border border-blue-900">
             <img className="rounded-full h-20 w-20 border border-gray-100 shadow-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOcxIbxfuAZxJPi6LzSVTM4RGlqQ_U2U_rQ&s" />
@@ -272,34 +272,46 @@ export default function Home() {
         </div>
       </nav>
 
-      <nav id="#training" className=" shadow-2xl border-2 border-black p-3 m-10 h-96 w-full">
+      <nav id="#training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] ">
         
           <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
-            <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-5">
+            <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
+                
+                
                 <div className="col-span-3 ">
-                  
-                  <label htmlFor="Name" className=""></label>
-                  <input type="text" id="Name" name="Name" className="border-2 border-black w-[80%] h-full" />
-                  
+                <label className="block ">
+                  <span className="h-full after:text-red-500 block text-sm font-medium text-slate-700">
+                  </span>
+                  <input type="text" name="tittle" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Titulo del entrenamiento" />
+                </label>
                 </div>
-                <div className="col-span-4 row-span-2 col-start-1 row-start-2">
-                  <textarea name="textarea" id="text_training" className="h-full w-full border-2 border-black"> escribe lo que sea</textarea>
+
+
+                <div className="col-span-4 row-span-2 col-start-1 row-start-2 block">
+                <span className="after:text-red-500 block text-sm font-medium text-slate-700">
+                </span>
+                <textarea name="textarea" id="text_training" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Descripcion"></textarea>
                 </div>
-                <div className="col-start-1 row-start-4 border-2 border-black">
-                  <button className=" text-black hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 ">Subir</button>
+
+
+                <div className="col-start-1 row-start-4 border-2 border-black rounded-lg">
+                  <button className=" text-white hover:bg-[#ef260b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                    <a href="#home">Subir</a>
+                  </button>
                 </div>
-                <div className="col-start-4 row-start-4 border-2 border-black">
-                  4
+                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg">
+                  <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                    Subir
+                  </button>
                 </div>
-                <div className="col-start-4 row-start-1 w-10 ml-40">
-                  <a href="#home" className="">
+                <a href="home" className="">
+                  <div className="col-start-4 row-start-1 w-10 ml-[50%]">
                     <svg className="h-8 w-8 text-slate-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                     </svg>
-                  </a>
-                </div>
-            </div>
-    
+                  </div>
+                </a>
+          </div>
         </div>
       </nav>
     </main>
