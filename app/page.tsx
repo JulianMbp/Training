@@ -139,25 +139,10 @@ export default function Home() {
           </div>
           <div className="border-2  border-slate-500 ">
             3
-            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
-              <p className="col-span-3 flex">
-                Road Cycling
-              </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">100 km</p>
-            </div>
           </div>
           <div className="border-2  border-slate-500 ">
             4
-            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
-              <p className="col-span-3 flex">
-                Road Cycling
-              </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">2:00:00</p>
-              <p className="col-span-3">56 km</p>
-            </div>
+          
           </div>
           <div className="border-2 border-slate-500 ">
             5
@@ -290,7 +275,7 @@ export default function Home() {
             </a>
           </div>
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#evento" className="flex">
+            <a href="#event" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
@@ -304,9 +289,9 @@ export default function Home() {
         </div>
       </nav>
 
-      <nav id="#training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] ">
+      <nav id="training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] ">
         
-          <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
+          <div className="grid grid-cols-2 md:grid-cols- grid-rows-5 col-span-2">
             <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
                 
                 
@@ -324,10 +309,11 @@ export default function Home() {
                 </span>
                 <textarea name="textarea" id="text_training" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Descripcion"></textarea>
                 </div>
-                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg hidden">
-                  <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                <div className="col-start-1 row-start-4 w-full  ">
+                  {/* <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
                     Subir
-                  </button>
+                  </button> */}
+                  <input type="date" className=" border-2 border-black rounded-lg" />
                 </div>
 
                 <div className="col-start-4 row-start-4 border-2 border-black rounded-lg ">
@@ -343,6 +329,55 @@ export default function Home() {
                     </svg>
                   </div>
                 </a>
+          </div>
+        </div>
+      </nav>
+      <nav id="event" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-72 w-[30%] ">
+        
+          <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
+
+            <div className="grid grid-cols-2 col-span-4 border-2 p-0">
+                  
+                
+                  <div className="h-10 ml-[80%] border-2">
+                  <a href="#home" className="">
+                    <svg className="hover:bg-slate-300 hover:rounded-lg w-8 text-slate-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                  </a>
+                  </div>
+                
+            </div>
+                
+            <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
+                <div className="col-span-3 ">
+                <label className="block ">
+                  <span className="h-full after:text-red-500 block text-sm font-medium text-slate-700">
+                  </span>
+                  <input type="text" name="tittle" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Titulo del entrenamiento" />
+                </label>
+                </div>
+
+
+                <div className="col-span-4 row-span-2 col-start-1 row-start-2 block">
+                <span className="after:text-red-500 block text-sm font-medium text-slate-700">
+                </span>
+                <textarea name="textarea" id="text_training" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Descripcion"></textarea>
+                </div>
+                <div className="col-start-1 row-start-4 w-full  ">
+                  {/* <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                    Subir
+                  </button> */}
+                  <input type="date" className=" border-2 border-black rounded-lg" />
+                </div>
+
+                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg ">
+                  <button className=" text-white hover:bg-[#29ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                    <a href="#home">Save</a>
+                  </button>
+                </div>
+                
+                
           </div>
         </div>
       </nav>
