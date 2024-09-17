@@ -275,13 +275,13 @@ export default function Home() {
             </a>
           </div>
           <div className=" text-black hover:scale-105 hover:shadow-md transition-all active:scale-95 hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#event" className="flex">
+            <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
           </div>
           <div className=" text-black hover:scale-105 hover:shadow-md transition-all active:scale-95 hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#recordar" className="flex">
+            <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="9 11 12 14 20 6" />  <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
               <h3 className="font-thin">Agregar Recordatorio</h3>
             </a>
@@ -297,7 +297,7 @@ export default function Home() {
                 <label className="block ">
                   <span className="h-full after:text-red-500 block text-sm font-medium text-slate-700">
                   </span>
-                  <input type="text" name="tittle" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Titulo del entrenamiento" />
+                  <input type="text" name="tittle" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Titulo" />
                 </label>
                 </div>
                 <div className="col-span-4 row-span-2 col-start-1 row-start-2 block">
@@ -311,7 +311,7 @@ export default function Home() {
 
                 <div className="col-start-4 row-start-4 border-2 border-black rounded-lg ">
                   <button className="hover:scale-105 hover:shadow-md transition-all active:scale-95 text-white hover:bg-[#1fa909] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
-                    <a href="#home">Save</a>
+                    <a href="#dashboard">Save</a>
                   </button>
                 </div>
                 <a href="#home" className="">
@@ -321,42 +321,6 @@ export default function Home() {
                     </svg>
                   </div>
                 </a>
-          </div>
-        </div>
-      </nav>
-      <nav id="event" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-72 w-[30%] ">
-        
-          <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
-                
-            <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
-                <div className="col-span-3 ">
-                <label className="block ">
-                  <span className="h-full after:text-red-500 block text-sm font-medium text-slate-700">
-                  </span>
-                  <input type="text" name="tittle" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Titulo del entrenamiento" />
-                </label>
-                </div>
-
-
-                <div className="col-span-4 row-span-2 col-start-1 row-start-2 block">
-                <span className="after:text-red-500 block text-sm font-medium text-slate-700">
-                </span>
-                <textarea name="textarea" id="text_training" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Descripcion"></textarea>
-                </div>
-                <div className="col-start-1 row-start-4 w-full  ">
-                  {/* <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
-                    Subir
-                  </button> */}
-                  <input type="date" className=" border-2 border-black rounded-lg" />
-                </div>
-
-                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg ">
-                  <button className=" text-white hover:bg-[#29ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
-                    <a href="#home">Save</a>
-                  </button>
-                </div>
-                
-                
           </div>
         </div>
       </nav>
