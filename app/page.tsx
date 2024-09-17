@@ -275,7 +275,7 @@ export default function Home() {
             </a>
           </div>
           <div className=" text-black hover:scale-105 hover:shadow-md transition-all active:scale-95 hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#evento" className="flex">
+            <a href="#event" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
