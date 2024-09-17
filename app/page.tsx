@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </header>
 
-      <nav id="home" className="bg-slate-100 h-full w-full text-7xl border-2 border-blue-900 ">
+      <nav id="home" className="bg-slate-100 h-full w-full text-7xl border-2 border-blue-900 mt-32 md:mt-0 ">
         <menu className="grid grid-cols-1 md:grid-cols-4">
           <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 shadow-lg  border border-blue-900">
             <img className="rounded-full h-20 w-20 border border-gray-100 shadow-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOcxIbxfuAZxJPi6LzSVTM4RGlqQ_U2U_rQ&s" />
@@ -32,7 +32,7 @@ export default function Home() {
             Bienvenido a tu entrenamiento Chris
           </div>
         </menu>
-        <menu className="grid grid-cols-2 md:grid-cols-3 mt-20">
+        <menu className="grid grid-cols-1 md:grid-cols-3 mt-20">
           <div className="ml-1 border-x-4 grid grid-cols-1 text-3xl h-auto w-full">
             <p className="text-3xl font-semibold text-blue-700 ">Planes de Entrenamiento</p>
             <a href="" className="flex hover:scale-105 hover:shadow-md transition-all active:scale-95 gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
@@ -60,8 +60,8 @@ export default function Home() {
               Road Cycling
               <svg className="h-10 w-10 text-lime-600"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="20 6 9 17 4 12" /></svg>
             </p>
-            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>            <p className="">2:00:00</p>
-            <p className="">56 km</p>
+            <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>            <p className="md:visible invisible">2:00:00</p>
+            <p className="md:visible invisible">56 km</p>
             </div>
           </div>
 
@@ -121,9 +121,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">2:00:00</p>
-              <p className="col-span-3">56 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">2:00:00</p>
+              <p className="col-span-3 md:visible invisible">56 km</p>
             </div>
           </div>
           <div className="border-2 h-auto border-slate-500 ">
@@ -132,9 +132,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">5:00:00</p>
-              <p className="col-span-3">160 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">5:00:00</p>
+              <p className="col-span-3 md:visible invisible">160 km</p>
             </div>
           </div>
           <div className="border-2  border-slate-500 ">
@@ -150,9 +150,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">90 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">3:00:00</p>
+              <p className="col-span-3 md:visible invisible">90 km</p>
             </div>
           </div>
           <div className="border-2 border-slate-500 ">
@@ -176,9 +176,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">90 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">3:00:00</p>
+              <p className="col-span-3 md:visible invisible">90 km</p>
             </div>
           </div>
           <div className="border-2 border-slate-500 ">
@@ -205,9 +205,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">90 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">3:00:00</p>
+              <p className="col-span-3 md:visible invisible">90 km</p>
             </div>
           </div>
           <div className="border-2 border-slate-500 ">
@@ -237,9 +237,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">90 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">3:00:00</p>
+              <p className="col-span-3 md:visible invisible">90 km</p>
             </div>
           </div>
           <div className="border-2 border-slate-500 ">
@@ -260,9 +260,9 @@ export default function Home() {
               <p className="col-span-3 flex">
                 Road Cycling
               </p>
-              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
-              <p className="">3:00:00</p>
-              <p className="col-span-3">90 km</p>
+              <svg className="h-6 w-6 md:h-8 md:w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="md:visible invisible">3:00:00</p>
+              <p className="col-span-3 md:visible invisible">90 km</p>
             </div>
           </div>
         </menu>
@@ -289,7 +289,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <nav id="training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] before:invisible after:visible">
+      <nav id="training" className=" shadow-2xl border-2 border-black p-3 mt-36 w-[80%] mx-20 h-52 md:mx-[40%] md:my-[20%] md:h-48 md:w-[30%] before:invisible after:visible">
         
           <div className="grid grid-cols-2 md:grid-cols- grid-rows-5 col-span-2">
             <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
