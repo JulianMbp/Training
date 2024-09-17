@@ -187,6 +187,14 @@ export default function Home() {
           </div>
           <div className="border-2 border-slate-500 ">
             11
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">90 km</p>
+            </div>
           </div>
           <div className="border-2 border-slate-500 ">
             12
@@ -208,6 +216,14 @@ export default function Home() {
           </div>
           <div className="border-2 border-slate-500 ">
             18
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">90 km</p>
+            </div>
           </div>
           <div className="border-2 border-slate-500 ">
             19
@@ -232,6 +248,14 @@ export default function Home() {
           </div>
           <div className="border-2 border-slate-500 ">
             26
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">90 km</p>
+            </div>
           </div>
           <div className="border-2 border-slate-500 ">
             27
@@ -247,11 +271,19 @@ export default function Home() {
           </div>
           <div className="border-2 border-slate-500 ">
             31
+            <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
+              <p className="col-span-3 flex">
+                Road Cycling
+              </p>
+              <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg>
+              <p className="">3:00:00</p>
+              <p className="col-span-3">90 km</p>
+            </div>
           </div>
         </menu>
 
         <div className="order-1 flex flex-col gap-1">
-          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
+          <div className=" text-black hover:bg-[#2f5aa8]  text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#training" className="flex">
               <svg  className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
               <h3 className="font-thin">Agregar entrenamiento</h3>
@@ -292,21 +324,21 @@ export default function Home() {
                 </span>
                 <textarea name="textarea" id="text_training" className="h-full px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Descripcion"></textarea>
                 </div>
-
-
-                <div className="col-start-1 row-start-4 border-2 border-black rounded-lg">
-                  <button className=" text-white hover:bg-[#ef260b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
-                    <a href="#home">Subir</a>
-                  </button>
-                </div>
-                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg">
+                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg hidden">
                   <button className=" text-white hover:bg-[#16ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
                     Subir
                   </button>
                 </div>
-                <a href="home" className="">
+
+                <div className="col-start-4 row-start-4 border-2 border-black rounded-lg ">
+                  <button className=" text-white hover:bg-[#29ef0b] bg-[#2f5aa8] text-center h-full w-full rounded hover:text-gray-50 " >
+                    <a href="#home">Save</a>
+                  </button>
+                </div>
+                
+                <a href="#home" className="">
                   <div className="col-start-4 row-start-1 w-10 ml-[50%]">
-                    <svg className="h-8 w-8 text-slate-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="hover:bg-slate-300 hover:rounded-lg h-8 w-8 text-slate-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                     </svg>
                   </div>
