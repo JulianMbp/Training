@@ -278,14 +278,14 @@ export default function Home() {
           </div>
           {/* Boton para agregar competencia */}
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#evento" className="flex">
+            <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
           </div>
           {/* boton para agregar recordatorio */}
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
-            <a href="#recordar" className="flex">
+            <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="9 11 12 14 20 6" />  <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
               <h3 className="font-thin">Agregar Recordatorio</h3>
             </a>
@@ -294,7 +294,7 @@ export default function Home() {
       </nav>
 
       {/* Seccion para insertar entrenamiento  */}
-      <nav id="#training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] ">
+      <nav id="training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%]">
         
           <div className="grid grid-cols-2 md:grid-cols- grid-rows-5 col-span-2">
             <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
