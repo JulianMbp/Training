@@ -4,7 +4,7 @@ export default function Home() {
       {/* Header para banner y barra de navegacion */}
       <header className=" w-screen h-20 bg-[#27303F]">
         <div className="grid grid-cols-2 md:grid-cols-8 bg-[#27303F]">
-          <h1 className=" order-1 text-2xl font-bold text-white text-center mt-2 col-span-2 pt-3">
+          <h1 className=" order-1 text-2xl font-bold text-white text-center  md:mt-2 col-span-2 pt-3">
             TrainingUp
           </h1>
           <a href="#home" className="order-2 text-2xl font-light col-span-2 hover:scale-105 hover:shadow-md transition-all active:scale-95 text-white hover:bg-[#ffff] w-full h-full text-center pt-3 m-2 rounded hover:text-gray-900 " >
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </header>
       {/* Nombre de perfil */}
-      <nav id="home" className="bg-slate-100  h-full w-full text-7xl border-2 border-blue-900 ">
+      <nav id="home" className="bg-slate-100 mt-24 md:m-0 h-full w-full text-7xl border-2 border-blue-900 ">
         <menu className="grid grid-cols-1 md:grid-cols-4">
           <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 shadow-lg  border border-blue-900">
             <img className="rounded-full h-20 w-20 border border-gray-100 shadow-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOcxIbxfuAZxJPi6LzSVTM4RGlqQ_U2U_rQ&s" />
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </menu>
         {/* seccion planes de entrenamiento */}
-        <menu className="grid grid-cols-2 md:grid-cols-3 mt-20">
+        <menu className="grid grid-cols-1 md:grid-cols-3 mt-20">
           <div className="ml-1 border-x-4 grid grid-cols-1 text-3xl h-auto w-full">
             <p className="text-3xl font-semibold text-blue-700 ">Planes de Entrenamiento</p>
             <a href="" className="flex hover:scale-105 hover:shadow-md transition-all active:scale-95 gap-2 text-xl shadow-sm text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
@@ -69,7 +69,7 @@ export default function Home() {
           {/* Seccion de eventos y competencias */}
           <div className="pl-1 text-2xl grid grid-cols-1">
             <p className="text-3xl font-semibold text-blue-700">Eventos</p>
-            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex hover:scale-105 hover:shadow-md transition-all active:scale-95 shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Vuelta a España
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
@@ -77,11 +77,11 @@ export default function Home() {
               Tour de France
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
-            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex hover:scale-105 hover:shadow-md transition-all active:scale-95 shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Vuelta a Catalunya
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
-            <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
+            <a href="" className="flex hover:scale-105 hover:shadow-md transition-all active:scale-95 shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Giro De Italia
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
@@ -270,21 +270,21 @@ export default function Home() {
         </menu>
         {/* Boton para agregar entrenamiento */}
         <div className="order-1 flex flex-col gap-1">
-          <div className=" text-black hover:bg-[#2f5aa8]  text-center p-2 m-2 rounded hover:text-gray-50 ">
+          <div className="hover:scale-105 hover:shadow-md transition-all active:scale-95 text-black hover:bg-[#2f5aa8]  text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#training" className="flex">
               <svg  className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
               <h3 className="font-thin">Agregar entrenamiento</h3>
             </a>
           </div>
           {/* Boton para agregar competencia */}
-          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
+          <div className="hover:scale-105 hover:shadow-md transition-all active:scale-95 text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
           </div>
           {/* boton para agregar recordatorio */}
-          <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
+          <div className="hover:scale-105 hover:shadow-md transition-all active:scale-95 text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#training" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="9 11 12 14 20 6" />  <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
               <h3 className="font-thin">Agregar Recordatorio</h3>
@@ -294,9 +294,9 @@ export default function Home() {
       </nav>
 
       {/* Seccion para insertar entrenamiento  */}
-      <nav id="training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%]">
+      <nav id="training" className=" shadow-2xl border-2 border-black p-3 md:mx-[40%] mx-[20%] my-[20%] h-56 w-[70%] md:w-[30%]">
         
-          <div className="grid grid-cols-2 md:grid-cols- grid-rows-5 col-span-2">
+          <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-5 col-span-2">
             <div className="grid grid-cols-4 grid-rows-4 col-span-4 gap-y-2">
                 <div className="col-span-3 ">
                 <label className="block ">
