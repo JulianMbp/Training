@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main>
+      {/* Header para banner y barra de navegacion */}
       <header className=" w-screen h-20 bg-[#27303F]">
         <div className="grid grid-cols-8 ">
           <h1 className=" order-1 text-2xl font-bold text-white text-center mt-2 col-span-2 pt-3">
@@ -18,7 +19,7 @@ export default function Home() {
             </nav>
         </div>
       </header>
-
+      {/* Nombre de perfil */}
       <nav id="home" className="bg-slate-100  h-full w-full text-7xl border-2 border-blue-900 ">
         <menu className="grid grid-cols-1 md:grid-cols-4">
           <div className="text-2xl m-2 p-4 gap-3 flex col-span-4 shadow-lg  border border-blue-900">
@@ -26,12 +27,13 @@ export default function Home() {
             <div className="text-3xl pt-4">Chris Froome</div>
           </div>
           <div>
-            
+            {/* banner de bienvenida */}
           </div>
           <div className="text-center text-4xl shadow-xl col-span-4 font-extrabold border mx-2 mt-10 border-blue-800">
             Bienvenido a tu entrenamiento Chris
           </div>
         </menu>
+        {/* seccion planes de entrenamiento */}
         <menu className="grid grid-cols-2 md:grid-cols-3 mt-20">
           <div className="ml-1 border-x-4 grid grid-cols-1 text-3xl h-auto w-full">
             <p className="text-3xl font-semibold text-blue-700 ">Planes de Entrenamiento</p>
@@ -52,7 +54,7 @@ export default function Home() {
               <svg className="h-5 w-5 text-slate-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polyline points="8 17 12 21 16 17" />  <line x1="12" y1="12" x2="12" y2="21" />  <path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29" /></svg>
             </a>
           </div>
-
+          {/* Seccion del entreno planificado y/o hecho para el dia */}
           <div className="grid grid-cols-1 md:grid-cols-2 border-x-4 text-2xl w-full ">
             <p className="col-span-2 text-3xl font-semibold text-blue-700">Entreno de hoy</p>
             <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-3 col-span-2 h-20 w-full">
@@ -64,10 +66,9 @@ export default function Home() {
             <p className="">56 km</p>
             </div>
           </div>
-
+          {/* Seccion de eventos y competencias */}
           <div className="pl-1 text-2xl grid grid-cols-1">
             <p className="text-3xl font-semibold text-blue-700">Eventos</p>
-
             <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
               Vuelta a España
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
@@ -77,18 +78,18 @@ export default function Home() {
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
             <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
-              Vuelta a Cantalunya
+              Vuelta a Catalunya
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
             <a href="" className="flex shadow-sm gap-2 text-xl text-black hover:bg-[#2f5aa8] text-left p-2 rounded hover:text-gray-50 ">
-              Giro De Itailia
+              Giro De Italia
             <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>            
             </a>
             
           </div>
         </menu>
       </nav>
-
+      {/* Calendario */}
       <nav id="dashboard" className="grid grid-cols-1 bg-slate-100 h-full w-full divide-x md:grid-cols-4 mt-20">
         <menu className="font-light grid grid-cols-7 col-span-3 h-full w-full order-2 border-2 border-slate-500 ">
           <div className="border-2 h-20 col-span-7 border-slate-500 ">
@@ -117,6 +118,7 @@ export default function Home() {
           </div>
           <div className="border-2 col-start-3 border-slate-500 ">
             1
+            {/* entreno planificado en el dia */}
             <div className="bg-slate-300 rounded border-2 shadow-2xl border-blue-950 grid grid-cols-1 md:grid-cols-3 col-span-2 h-20 w-full">
               <p className="col-span-3 flex">
                 Road Cycling
@@ -281,7 +283,7 @@ export default function Home() {
             </div>
           </div>
         </menu>
-
+        {/* Boton para agregar entrenamiento */}
         <div className="order-1 flex flex-col gap-1">
           <div className=" text-black hover:bg-[#2f5aa8]  text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#training" className="flex">
@@ -289,12 +291,14 @@ export default function Home() {
               <h3 className="font-thin">Agregar entrenamiento</h3>
             </a>
           </div>
+          {/* Boton para agregar competencia */}
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#evento" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="9" r="6" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />  <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" /></svg>
               <h3 className="font-thin">Agregar Competencia</h3>
             </a>
           </div>
+          {/* boton para agregar recordatorio */}
           <div className=" text-black hover:bg-[#2f5aa8] text-center p-2 m-2 rounded hover:text-gray-50 ">
             <a href="#recordar" className="flex">
               <svg className="h-8 w-8 text-slate-900"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="9 11 12 14 20 6" />  <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
@@ -304,6 +308,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Seccion para insertar entrenamiento  */}
       <nav id="#training" className=" shadow-2xl border-2 border-black p-3 mx-[40%] my-[20%] h-48 w-[30%] ">
         
           <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-4 col-span-2">
